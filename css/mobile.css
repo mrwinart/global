@@ -8,7 +8,7 @@
 /* прелоудер меняет ширину и высоту !important означает принудительность */
 .loading-wrapper .loading span {
   width: 100px!important; height: 100px!important
-};
+}
 
 /* запрос на вывод и транзакция меняет цвет, делает округление по бокам и делает отступ со всех сторон */
 .transactions-container .transactions-item, .withdraw-requests-container .transactions-item{ 
