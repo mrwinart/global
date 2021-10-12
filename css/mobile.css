@@ -1,9 +1,21 @@
-/*центрирует по вертикали и делает отступ сверху*/
-  .logo-image img{
-    vertical-align: middle;
-    position: relative;
-    top: -2px;
-  }
-  /*header (шапка) меняет цвет*/
-  .header.mobile {background: #000};
-  
+/* центрирует по вертикали и делает отступ сверху */
+.logo-image img{
+  vertical-align: middle;
+  position: relative;
+  top: -2px;
+}
+
+/* header (шапка) меняет цвет */
+.header.mobile {
+  background: #000
+};
+
+/* прелоудер меняет ширину и высоту !important означает принудительность */
+.loading-wrapper .loading span {
+  width: 100px!important; height: 100px!important
+};
+
+/* прелоудер меняет ширину и высоту !important означает принудительность */
+transactions-container .transactions-item, .withdraw-requests-container .transactions-item{ 
+  background: #000; border-radius: 7px; margin:7px;
+}
