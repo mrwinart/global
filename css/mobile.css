@@ -1,0 +1,9 @@
+/*центрирует по вертикали и делает отступ сверху*/
+  .logo-image img{
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+  }
+  /*header (шапка) меняет цвет*/
+  .header.mobile {background: #000};
+  
